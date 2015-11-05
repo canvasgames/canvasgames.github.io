@@ -133,11 +133,7 @@
 		</div>
 		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
 		
-		<script id="miniclip-js">
-        window.mcAsyncInit = function() {
-            MC.resize();
-        };
-        </script>
+
         
         <script>
         (function(d, s, id){
@@ -147,6 +143,13 @@
             js.src = '//static.miniclipcdn.com/js/mc.js';
             mcjs.parentNode.insertBefore(js, mcjs);
         }(document, 'script', 'miniclip-jssdk'));
+        
+		</script>
+		
+				<script id="miniclip-js">
+        window.mcAsyncInit = function() {
+            MC.resize();
+        };
         </script>
 		
 	</body>
