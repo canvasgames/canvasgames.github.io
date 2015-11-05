@@ -137,7 +137,12 @@
 			</div>
 		</div>
 		<p class="footer">&laquo; created with BAAAAAAAA <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
-	
+		<script>
+			window.mcAsyncInit = function() {
+				MC.resize();
+			};
+        </script>
+		
 		<script>
 		(function(d, s, id){
 			var js, mcjs = d.getElementsByTagName(s)[0];
@@ -148,11 +153,7 @@
 		}(document, 'script', 'miniclip-jssdk'));
 		</script>
 
-		<script>
-			window.mcAsyncInit = function() {
-				MC.resize();
-			};
-        </script>
+		
 		
 
 		
